@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.juegofx_m03.Controller">
+   <children>
+      <ImageView fitHeight="481.0" fitWidth="853.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@intro.jpg" />
+         </image>
+      </ImageView>
+      
+      <Button layoutX="351.0" layoutY="363.0" mnemonicParsing="false" onAction="#onStartButtonClick" prefHeight="55.0" prefWidth="152.0" text="START">
+         <font>
+            <Font name="LakkiReddy" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
